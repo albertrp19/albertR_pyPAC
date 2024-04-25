@@ -2,11 +2,11 @@ import os
 from funcions import *
 opcio = 0
 
-while opcio != 4:
+while opcio != 5:
     os.system('cls')
     menu()
     opcio = int(input("Introdueix una opcio valida: "))
-    while opcio > 4 or opcio < 1:
+    while opcio > 5 or opcio < 1:
         print("Ha introduit un opcio no valida")
         menu()
         opcio = int(input("Introdueix una opcio valida: "))
@@ -25,3 +25,7 @@ while opcio != 4:
     if opcio == 4:
         os.system('cls')
         menu4()
+        continuar()
+    if opcio == 5:
+        os.system('cls')
+        menu5()
