@@ -30,3 +30,6 @@ def menu4():
     print("║                            Sortir                             ║")
     print("╚═══════════════════════════════════════════════════════════════╝")
     print("Adeu, que tinguis un bon dia")
+
+def continuar():
+    input("Pressiona qualsevol tecla per continuar...")
