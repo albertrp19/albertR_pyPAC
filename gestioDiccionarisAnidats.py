@@ -19,6 +19,7 @@ entrada = {
   
 auxiliar.update(entrada)
 
+print(auxiliar)
 
 diccionari.update({paraula:auxiliar})
 
